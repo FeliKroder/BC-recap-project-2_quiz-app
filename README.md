@@ -55,7 +55,7 @@ The following acceptance criteria should be met for the answer button:
 - When the user clicks this **button** again the answer is **hidden** again
 - The user can click on this button endlessly and the answer will **either be displayed or hidden**
   after each click
-- The **toggle** functionality should be applied by using a **class** which is named **"hidden"**
+- The **toggle** functionality should be applied by using a **class** which is named **"active"**
 - If the user clicks on an answer button, we want the button to say **"hide answer"** when the
   answer is displayed and **"show answer"** when the answer is not displayed.
 

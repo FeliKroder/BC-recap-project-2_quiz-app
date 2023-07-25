@@ -31,6 +31,8 @@
 
 .card__answer--active {
   display: block;
+  /* color: transparent; */
+  /* background-color: transparent; */
 }
 
 .card__button-bookmark {
