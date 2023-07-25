@@ -1,0 +1,20 @@
+.form {
+  border: 1px solid var(--black);
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.form__button-submit {
+  background: var(--secondary);
+  color: var(--white);
+  border: none;
+  display: block;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+}
+
+.form__button-submit:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
