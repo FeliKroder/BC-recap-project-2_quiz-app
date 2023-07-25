@@ -9,14 +9,16 @@ bookmarkToggle.addEventListener("click", () => {
   bookmarkToggle.classList.toggle("bookmark--active");
 });
 
-// ANSWER BUTTON
+// SHOW/HIDE ANSWER BUTTON
 const showAnswerButton = document.querySelector('[data-js="button-answer"]');
 const cardAnswer = document.querySelector('[data-js="card-answer"]');
 
 showAnswerButton.addEventListener("click", () => {
   cardAnswer.classList.toggle("card__answer--active");
-  showAnswerButton.textContent = cardAnswer.classList.contains("invisible")
+  showAnswerButton.textContent = showAnswerButton.toggle("card__answer--active")
     ? "Show answer"
     : "Hide answer";
   // wie mache ich nach dem 1. "hide answer" dann wieder "show answer"??
 });
+
+//
