@@ -21,5 +21,3 @@ showAnswerButton.addEventListener("click", () => {
     ? "Hide answer"
     : "Show answer";
 });
-
-//
