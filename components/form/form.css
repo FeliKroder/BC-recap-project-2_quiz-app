@@ -1,8 +1,11 @@
 .form {
   border: 1px solid var(--black);
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .form__button-submit {
