@@ -15,10 +15,11 @@ const cardAnswer = document.querySelector('[data-js="card-answer"]');
 
 showAnswerButton.addEventListener("click", () => {
   cardAnswer.classList.toggle("card__answer--active");
-  showAnswerButton.textContent = showAnswerButton.toggle("card__answer--active")
-    ? "Show answer"
-    : "Hide answer";
-  // wie mache ich nach dem 1. "hide answer" dann wieder "show answer"??
+  showAnswerButton.textContent = showAnswerButton.classList.toggle(
+    "card__answer--active"
+  )
+    ? "Hide answer"
+    : "Show answer";
 });
 
 //
