@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./form.js" defer></script>
   </head>
   <body>
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
     <main>
-      <form class="form">
+      <form class="form" data-js="form">
         <label class="form__label" for="question">Your question:</label>
         <textarea
           class="form__textarea"
@@ -25,6 +26,7 @@
         <input class="form__input" id="tag" type="text" name="tag" />
         <button class="form__button-submit" type="submit">Submit</button>
       </form>
+      <div data-js="card-container"></div>
     </main>
     <nav class="navigation">
       <ul class="navigation__list">
